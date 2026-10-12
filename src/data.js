@@ -2,8 +2,8 @@ export const profile = {
   name: 'Abhinav I',
   email: 'abhinavi.2023@gmail.com',
   github: 'Ak-oo7',
-  githubUrl: 'https://github.com/Ak-oo7',
-  linkedin: 'https://www.linkedin.com/in/abhinav-i-abhinav-b47618354/',
+  githubUrl: 'https://github.com/akverse02',
+  linkedin: 'https://www.linkedin.com/in/abhinav-i-b47618354/?isSelfProfile=true',
   resume: '/resume.pdf',
 }
 
@@ -24,7 +24,7 @@ export const projects = [
     alt: 'LAWLLAMA legal assistant interface',
     desc: 'An AI legal assistant that answers legal questions with retrieval-augmented generation. It combines FAISS retrieval, BART and Llama 3 (through the Groq API) behind a Flask app.',
     tags: ['Python', 'Flask', 'FAISS', 'Transformers', 'Groq', 'Llama 3', 'RAG'],
-    url: 'https://github.com/Ak-oo7/LAWLLAMA',
+    url: 'https://github.com/akverse02/LAWLLAMA',
   },
   {
     title: 'AI vs Human image classification',
@@ -34,7 +34,7 @@ export const projects = [
     alt: 'AI vs Human image classification project',
     desc: 'A CNN that tells AI-generated images from real photographs, using Haar wavelet, DCT and Gabor filter features.',
     tags: ['TensorFlow', 'Keras', 'OpenCV', 'CNN'],
-    url: 'https://github.com/Ak-oo7/AI-vs-Human-Image-Classification',
+    url: 'https://github.com/akverse02/AI-vs-Human-Image-Classification',
   },
   {
     title: 'Heart failure prediction',
@@ -44,7 +44,7 @@ export const projects = [
     alt: 'Heart failure prediction project',
     desc: 'Predicts heart failure from clinical data using feature engineering and a Random Forest model.',
     tags: ['Python', 'Scikit-learn', 'Random Forest'],
-    url: 'https://github.com/Ak-oo7/HEART-FAILURE-MODEL',
+    url: 'https://github.com/akverse02/HEART-FAILURE-MODEL',
   },
   {
     title: 'IMDB rating analysis',
@@ -54,7 +54,7 @@ export const projects = [
     alt: 'IMDB rating analysis charts',
     desc: 'Exploratory analysis of 1,000 movies, looking at what drives ratings, with Pandas, Matplotlib and Seaborn.',
     tags: ['Pandas', 'Matplotlib', 'Seaborn'],
-    url: 'https://github.com/Ak-oo7/IMDB-RATING-ANALYSIS',
+    url: 'https://github.com/akverse02/IMDB-RATING-ANALYSIS',
   },
   {
     title: 'IEEE ML projects',
@@ -64,7 +64,7 @@ export const projects = [
     alt: 'IEEE machine learning projects',
     desc: 'Four projects from IEEE: customer segmentation, plant disease detection, diabetes prediction and salary prediction.',
     tags: ['Machine learning', 'Computer vision', 'Prediction'],
-    url: 'https://github.com/Ak-oo7/IEEE-ML-Projects',
+    url: 'https://github.com/akverse02/IEEE-ML-Projects',
   },
 ]
 
