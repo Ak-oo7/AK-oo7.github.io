@@ -235,6 +235,7 @@ footer{text-align:center;padding:2rem;color:var(--mut);font-size:.88rem;border-t
 <footer>© <span id="yr"></span> Abhinav I — designed &amp; built with care.</footer>
 <button id="top" aria-label="Back to top">↑</button>
 
+<script>setTimeout(function(){var r=document.documentElement;if(!r.classList.contains('ready')){r.classList.add('ready');var l=document.getElementById('load');if(l)l.className='done';document.body.style.overflow=''}},9000)</script>
 <script>
 (()=>{
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -266,11 +267,11 @@ let n=0;$$('[data-split]').forEach(el=>{el.innerHTML=[...el.textContent].map(c=>
  if(RM){L.classList.add('done');H.classList.add('ready');return}
  document.body.style.overflow='hidden';
  const words=[[0,'Artificial Intelligence'],[.34,'Machine Learning'],[.67,'Data Science']],maxw=Math.min(innerWidth*.72,900),D=4600,t0=performance.now();let last='';
- (function f(t){const p=Math.min((t-t0)/D,1),e=1-Math.pow(1-p,2.2);
+ const iv=setInterval(()=>{const t=performance.now(),p=Math.min((t-t0)/D,1),e=1-Math.pow(1-p,2.2);
   cp.textContent=String(Math.round(e*100)).padStart(3,'0');sm.style.width=e*maxw+'px';
   const w=words.filter(q=>p>=q[0]).pop()[1];if(w!==last){last=w;ls.textContent=w;ls.classList.remove('sw');void ls.offsetWidth;ls.classList.add('sw')}
-  if(p<1)return requestAnimationFrame(f);
-  setTimeout(()=>{L.classList.add('open');setTimeout(()=>H.classList.add('ready'),1000);setTimeout(()=>{L.classList.add('done');document.body.style.overflow=''},3000)},450)})(t0);
+  if(p<1)return;clearInterval(iv);
+  setTimeout(()=>{L.classList.add('open');setTimeout(()=>H.classList.add('ready'),1000);setTimeout(()=>{L.classList.add('done');document.body.style.overflow=''},3000)},450)},30);
 })();
 // particle web (whole page)
 (()=>{if(RM)return;const cv=$('#cv'),x=cv.getContext('2d');let W,H,P=[],m={x:-999,y:-999},pr=0;
